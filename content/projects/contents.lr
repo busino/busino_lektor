@@ -1,0 +1,11 @@
+_model: projects
+---
+_template: projects.html
+---
+
+title: Projects
+---
+
+body:
+
+My Projects

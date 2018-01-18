@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% from "macros/navigation.html" import render_sub_navigation %}
+
+{% block title %}{{ this.title }}{% endblock %}
+
+
+{% block sub_navigation %}
+
+{{ render_sub_navigation(site.get('projects'), this) }}
+
+{% endblock %}
+
+{% block content %}
+
+
+{% if site.get('projects') != this %}
+
+  <h1>{{ this.title }}</h1>
+  <p>{{this.headline}}</p>
+  {{ this.body }}
+
+  {% set siblings = this.get_siblings() %}
+  
+  {% if siblings.prev_page %}
+    <a href="{{ siblings.prev_page|url }}">&lArr;previous</a>
+  {% endif %}
+  &nbsp;&nbsp;
+  {% if siblings.next_page %}
+    <a href="{{ siblings.next_page|url }}">next&rArr;</a>
+  {% endif %}
+
+{% else %}
+
+  {% for ch in this.children %}
+<h1><a href="{{ ch|url }}">{{ ch.title }}</a></h1>
+<p>{{ ch.headline }}</p>
+<a href="{{ ch|url }}">read more &rArr;</a>
+  {% endfor %} 
+
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,43 @@
+_model: page
+---
+_template: layout.html
+---
+body:
+
+# Customers*
+
+
+[Hintermann & Weber](http://hintermannweber.ch/)
+Pattern Recognition of frogs.
+
+
+[Stüssi AG](http://stuessi-ag.ch/)
+Production program to build concrete elements.
+
+[Suter Industries](http://www.sutec.ch/suterindustries/home/)
+Geometric analysis program for motorcycles [MoCal](http://www.sutec.ch/en/suterracing/technology/software-development/).
+
+
+[Tecsag Innovation AG](http://www.tecsag.com)
+[Alptracker](http://www.alptracker.ch/)
+
+[Wieland Dental Germany](http://www.wieland-dental.de/)
+Adapt software of milling machine
+
+[WHIZZZ GmbH](https://www.whizzz.design/)
+Support for django web page.
+
+# Collaborations*
+
+[Department of Anthropology - University of Zurich](http://www.aim.uzh.ch/de.html)
+Research Associate
+
+[Sotronik](www.sotronik.ch/) Alptracker Development
+
+[ZHAW Zurich University of Applied Sciences](https://www.zhaw.ch/en/university/) Alptracker Development
+
+
+\* *In alphabetic order.*
+
+
+---

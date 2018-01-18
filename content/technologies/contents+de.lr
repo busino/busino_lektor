@@ -1,0 +1,89 @@
+_model: page
+---
+_template: layout.html
+---
+title: Technologies
+---
+body:
+
+It's not a secret. All software used in my daily business is [open source](https://de.wikipedia.org/wiki/Open_Source).
+If possible I contribute to the tools I'm working with.
+Some (actually not so many) tools that I have developed for my customers are also licensed with a open source compatible license.
+
+Visit my github profile:
+
+[<img src="/static/vendor/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png">](https://github.com/busino)
+
+
+## Python
+
+[Python](https://www.python.org/) is my main programming language. And I would like to provide some useful libraries that are used
+in my daily business.
+
+[Django](https://www.djangoproject.com/)
+Create database and web prototypes in minutes. This is how I use it.
+
+[Numpy](http://www.numpy.org/)
+Fast matrix calculations. **The** library to use when using matrices in python.
+
+[scikit-learn](http://scikit-learn.org/stable/)
+Machine Learning made easy. With great documentation. Want to use machine learning ... start there.
+
+[bokeh](https://bokeh.pydata.org/en/latest/)
+Create interactive plots for the web in python.
+
+[tensorflow](https://www.tensorflow.org/)
+Deep learning from google.
+
+[conda](https://conda.io/docs/)
+My preferred way to install python packages.
+
+## Web Tools
+
+[bootstrap](http://getbootstrap.com/) the css for this page.
+
+[jquery](http://jquery.com/)
+
+This website was built with [Lektor](https://www.getlektor.com/)
+
+[firefox](https://firefox.com) browser with [NoScript](https://noscript.net/) extension.
+
+
+## IDE, Development Tools
+
+[eclipse](http://www.eclipse.org)
+
+[tortoisegit](https://tortoisegit.org/)
+
+## Drawing
+
+[gimp](https://www.gimp.org/)
+
+
+[inkscape](https://inkscape.org/)
+Vector graphics ...
+
+## Server OS, Deployment
+
+[Ubuntu](https://www.ubuntu.com/)
+Use the LTS releases for server images.
+
+[Docker](https://www.docker.com/)
+with [compose](https://docs.docker.com/compose/)
+
+[nginx](https://nginx.org/) HTTP and reverse proxy server
+
+[uwsgi](https://uwsgi-docs.readthedocs.io/en/latest/) Web Application Server Container
+
+## Cloud Provider
+
+[exoscale](https://www.exoscale.ch/)
+Cloud provider with datacenter just 5 kilometers away from my office.
+
+## Databases
+
+[mysql](https://www.mysql.com/)
+The community edition .. what else.
+
+
+---

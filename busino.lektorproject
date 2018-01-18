@@ -1,0 +1,19 @@
+[project]
+name = Busino
+locale = en
+url_style = relative
+
+[alternatives.en]
+name = English
+primary = yes
+locale = en_US
+
+[alternatives.de]
+name = Deutsch
+url_prefix = /de/
+locale = de_CH
+
+[servers.ghpages]
+target = ghpages+https://busino/busino.github.io
+user = raffs
+password = sffar530

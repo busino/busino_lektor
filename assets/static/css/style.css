@@ -1,0 +1,46 @@
+/*******************************************************************************
+ * Footer                                                                      *
+ *******************************************************************************/
+.master-footer {
+    background-color: #122451;
+    color: lightgray;
+    position: fixed;
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    text-align: right;
+    padding: 6px;
+    z-index: -1; 
+}
+
+.content {
+    margin-top: 60px;
+}
+
+body {
+    color: #eeeeee;
+}
+
+.master {
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    background-color: #000;
+    position: relative;
+    width: 100%;
+}
+
+.sub_nav > li > a {
+    padding: 4px 6px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: white;
+}
+
+.navbar-inverse {
+    background-color: #122451;
+}
+
+#side_navigation {
+    margin-top: 12px;
+}

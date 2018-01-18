@@ -1,0 +1,46 @@
+{% macro active(obj, s) %}{% if obj._path == s or obj.parent._path == s %} class="active"{% endif %}{% endmacro %}
+
+{% macro current_alt(current) %}{% if current._source_alt != '_primary'%}/{{current.alt}}{% endif %}{% endmacro %}
+
+{% macro render_navigation(current) %}
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+       <li><a href="/" title="Home" >Home</a></li>
+       <!-- <li{{ active(current, '/blog') }}><a href="{{ current_alt(current) }}/blog" title="Blog" >Blog</a></li> -->
+       <li{{ active(current, '/technologies') }}><a href="{{ current_alt(current) }}/technologies" title="Technologies" >Technologies</a></li>
+       <li{{ active(current, '/customers') }}><a href="{{ current_alt(current) }}/customers" title="Customers & Collaborations" >Customers</a></li>
+       <li{{ active(current, '/about') }}><a href="{{ current_alt(current) }}/about" title="About" >About</a></li>
+       <li{{ active(current, '/contact') }}><a href="{{ current_alt(current) }}/contact" title="Contact" >Contact</a></li>
+     </ul>
+     <!-- 
+     &nbsp;
+     <ul class="nav navbar-nav" style="margin-left: 4%;">
+     {% for alt in get_alts(current) %}
+       {% if alt != current.alt %}
+       <li><a href="{{ '.'|url(alt=alt) }}" title="Select Language: {{alt|title}}">{{ alt }}</a></li>
+       {% endif %}
+     {% endfor %}
+     </ul>
+      -->
+    </div>
+  </div>
+</div>
+
+{% endmacro %}
+
+
+{% macro render_sub_navigation(base, current) %}
+
+      {% if base.children %}
+        <ul class="sub_nav nav nav-pills nav-stacked" id="side_navigation">
+          {% for child in base.children %}
+          <li{% if child._path == current._path %} class="active"{% endif %}><a href="{{ current_alt(current) }}{{ child|url }}" title="{{ child.title }}">{{ site.get(child._path, current.alt).title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+{% endmacro %}
+
+

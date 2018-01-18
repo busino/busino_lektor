@@ -1,0 +1,16 @@
+_template: blog.html
+---
+title: Blog Entry 2
+---
+pub_date: 2016-10-25
+---
+author: Raphael Walker
+---
+body:
+
+TViele Wildtiere sind nachtaktiv und man bekommt sie nur selten zu Gesicht. 
+In ihren Gebieten hinterlassen sie jedoch Spuren und verraten damit ihre Anwesenheit. 
+Gemeldet werden können neben Tierbeobachtungen auch Spuren wie Fuchsbaue, Erdhügel 
+von Schermaus oder Maulwurf oder Tierlosungen. Anhand der Eigenheiten der Spuren lässt 
+sich oft die Tiergruppe oder sogar die Art bestimmen. Deshalb dazu immer auch ein, 
+zwei Bilder hochladen.

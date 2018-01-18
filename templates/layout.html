@@ -1,0 +1,50 @@
+{% from "macros/navigation.html" import render_navigation %}
+
+{% include 'includes/head.html' %}
+
+<body>
+
+<!-- Navigation -->
+{{ render_navigation(current=this) }}
+<!-- End Navigation -->
+
+<!-- Master -->
+<div class="master">
+
+<div class="container content">
+  <div class="row">
+  
+    <!-- Sub Navigation -->
+    <div class="col-lg-2 col-md-2">
+
+{% block sub_navigation %}
+{% endblock %}
+
+    </div>
+    <!-- End Sub Navigation -->
+
+    <!-- Content -->
+    <div class="col-lg-9 col-md-9">
+      <div id="pageContentData">
+
+{% block content %}
+
+<h1>{{ this.title }}</h1>
+{{ this.body }}
+
+{% endblock %}
+
+      </div>
+    </div>
+    <!-- End Content -->
+
+  </div>
+</div>
+
+</div>
+<!-- End Master -->
+
+{% include 'includes/footer.html' %}
+   
+</body>
+</html>

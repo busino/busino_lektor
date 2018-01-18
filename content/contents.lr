@@ -1,0 +1,27 @@
+_model: page
+---
+_template: layout.html
+---
+title: Busino
+---
+body:
+
+# Software- and Product-Development
+
+Welcome to the website of my small little company called **busino**.
+
+I started with software-development over 10 years ago. 
+Since 2016 I am self-employed software- and product-developer.
+
+More info about [me](../about/), my [customers](../customers/) and the [tools](../technologies) I use.
+
+Contact information can be found [here](../contact).
+
+
+Translation of the website: to be done.
+
+### Have a lot of fun ...
+
+
+
+---

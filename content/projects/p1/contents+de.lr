@@ -1,0 +1,29 @@
+_model: project
+---
+_template: projects.html
+---
+title: Akustische Analyse von Gemsen
+---
+headline: How do you find where mountain coats are living in winter?
+---
+
+body:
+
+## Einführung
+
+Das ist die Einführung
+
+## Hauptteil
+
+sdfkljsadf sdfksl sdf lksdf
+
+## Conclusion
+
+So we have this page template now, but what about this layout? 
+Jinja2 supports template inheritance where one template can inherit code from another. 
+In this case we configured our page template to inherit from layout.html. Let's create it:
+
+```
+for i in range(12):
+  print '%s'%i
+```

@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% from "macros/blog.html" import render_blog_post %}
+{% from "macros/pagination.html" import render_pagination %}
+{% from "macros/navigation.html" import render_sub_navigation %}
+
+
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block sub_navigation %}
+
+{{ render_sub_navigation(site.get('blog'), this) }}
+
+{% endblock %}
+
+{% block content %}
+
+{% if site.get('blog') != this %}
+
+  {{ render_blog_post(this, from_index=true) }}
+
+  {% set siblings = this.get_siblings() %}
+  
+  {% if siblings.prev_page %}
+    <a href="{{ siblings.prev_page|url }}">&lArr;previous</a>
+  {% endif %}
+  &nbsp;&nbsp;
+  {% if siblings.next_page %}
+    <a href="{{ siblings.next_page|url }}">next&rArr;</a>
+  {% endif %}
+
+{% else %}
+
+  {% for child in this.pagination.items %}
+    {{ render_blog_post(child, from_index=true) }}
+  {% endfor %}
+
+  {{ render_pagination(this.pagination) }}
+
+
+{% endif %}
+
+{% endblock %}
