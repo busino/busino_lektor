@@ -23,7 +23,7 @@ lektor server
 activate www_lektor_env
 lektor quickstart
 lektor server
-lektor build -O ../busino.github.io
+lektor build -O ..\busino.github.io
 ```
 
 
