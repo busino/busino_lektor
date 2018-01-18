@@ -1,0 +1,4 @@
+name: www_lektor_env
+dependencies:
+ - python=3.6
+ - Lektor
