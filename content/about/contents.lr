@@ -2,15 +2,9 @@ _model: page
 ---
 _template: layout.html
 ---
+title: About
+---
 body:
-
-# Company
-
-No, there is no GmbH nor an AG.
-
-It's just a [one-man business](https://www.kmu.admin.ch/kmu/de/home/praktisches-wissen/kmu-gruenden/uebersicht-rechtsformen/einzelunternehmen.html).
-
-You will not find a commercial register entry for **busino** or my name.
 
 # About me
 
@@ -21,5 +15,13 @@ I studied mechanical engineering at the swiss federal institute of technology [E
 I worked for <a href="https://www.autoform.com/" target="_blank">AutoForm</a> and <a href="https://www.ansys.com" target="_blank">ANSYS Switzerland GmbH</a> in computational structural mechanics.
 
 Since 2016 I do my own [projects](../projects).
+
+# Company
+
+No, there is no GmbH nor an AG.
+
+It's just a [one-man business](https://www.kmu.admin.ch/kmu/de/home/praktisches-wissen/kmu-gruenden/uebersicht-rechtsformen/einzelunternehmen.html).
+
+You will not find a commercial register entry for **busino** or my name.
 
 
