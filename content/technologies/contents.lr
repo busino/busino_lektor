@@ -50,6 +50,7 @@ This website was built with [Lektor](https://www.getlektor.com/)
 
 [firefox](https://firefox.com) browser with [NoScript](https://noscript.net/) extension.
 
+[thunderbird](https://www.mozilla.org/thunderbird/) my main virtual communication channel
 
 ## IDE, Development Tools
 
@@ -61,9 +62,16 @@ This website was built with [Lektor](https://www.getlektor.com/)
 
 [gimp](https://www.gimp.org/)
 
-
 [inkscape](https://inkscape.org/)
 Vector graphics ...
+
+## Office
+
+[libreoffice](https://www.libreoffice.org/) for calculations and writing invoices...
+
+## Helpers
+
+[putty](http://www.putty.org/) ssh from win-box to the servers
 
 ## Server OS, Deployment
 
@@ -77,15 +85,20 @@ with [compose](https://docs.docker.com/compose/)
 
 [uwsgi](https://uwsgi-docs.readthedocs.io/en/latest/) Web Application Server Container
 
-## Cloud Provider
+## Databases
+
+[mysql](https://www.mysql.com/) The community edition ... what else.
+[mysql-workbench](https://dev.mysql.com/downloads/workbench/) to backup and restore development databases...
+
+## Services
 
 [exoscale](https://www.exoscale.ch/)
 Cloud provider with datacenter just 5 kilometers away from my office.
+[github](https://github.com/) to host my sources.
+[bitbucket][https://bitbucket.org/] for private repos.
+[metanet](https://www.metanet.ch/) for the domain names and mail hosting.
 
-## Databases
 
-[mysql](https://www.mysql.com/)
-The community edition ... what else.
 
 
 ---
