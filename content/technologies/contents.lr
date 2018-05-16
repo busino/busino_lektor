@@ -94,8 +94,11 @@ with [compose](https://docs.docker.com/compose/)
 
 [exoscale](https://www.exoscale.ch/)
 Cloud provider with datacenter just 5 kilometers away from my office.
+
 [github](https://github.com/) to host my sources.
-[bitbucket][https://bitbucket.org/] for private repos.
+
+[bitbucket](https://bitbucket.org/) for private repos.
+
 [metanet](https://www.metanet.ch/) for the domain names and mail hosting.
 
 
