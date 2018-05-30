@@ -7,9 +7,16 @@ title: Customers
 body:
 
 # Customers*
+<!---
+[ANSYS Switzerland GmbH](https://www.ansys.com/)
+Development & Consulting for Distributed Computing Platform
+-->
+
+[Forschungsgruppe Wildtiermanagement ZHAW](https://www.zhaw.ch/de/lsfm/institute-zentren/iunr/integrative-oekologie/wildtiermanagement/)
+Acoustic Detection for Animals
 
 [Hintermann & Weber](http://hintermannweber.ch/)
-Pattern Recognition of frogs.
+Pattern Recognition of Frogs.
 
 [Stüssi AG](http://stuessi-ag.ch/)
 Production program to build concrete elements.
@@ -30,6 +37,8 @@ Support for django web page.
 
 [Department of Anthropology - University of Zurich](http://www.aim.uzh.ch/de.html)
 Research Associate
+
+[Nomatec](https://www.nomatec.ch/) IT Support, Hardware Purchase, Consulting
 
 [Sotronik](http://www.sotronik.ch/) Alptracker Development
 

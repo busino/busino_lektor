@@ -73,6 +73,10 @@ Vector graphics ...
 
 [putty](http://www.putty.org/) ssh from win-box to the servers
 
+[winscp](https://winscp.net/eng/index.php) scp for windows
+
+[windirstat](https://windirstat.net/) Disk usage statistics viewer
+
 ## Server OS, Deployment
 
 [Ubuntu](https://www.ubuntu.com/)
@@ -89,6 +93,29 @@ with [compose](https://docs.docker.com/compose/)
 
 [mysql](https://www.mysql.com/) The community edition ... what else.
 [mysql-workbench](https://dev.mysql.com/downloads/workbench/) to backup and restore development databases...
+
+## Hardware
+
+### Notebook
+
+HP Envy 17-r190nz
+
+### Workstation
+
+ * Gigabyte GA-X99-Designare
+ * Samsung 750 EVO Basic (500GB, 2.5")
+ * HyperX Fury (4x, 8GB, DDR4-2133, DIMM 288)
+ * MSI GeForce GTX 1070 AERO 8G OC
+ * Intel Xeon E5-2620 v4 (LGA 2011-v3, 2.10GHz)
+ * Corsair Carbide 400C (Midi Tower)
+ * Alpenföhn Brocken 2
+ * be quiet! Dark Power Pro 11 (1000W)
+
+### SOC
+
+ * Raspberry PI 3 Model B
+ * WittyPi 2 (Power Hat)
+ * Discovery kit for LoRaWAN B-L072Z-LRWAN1
 
 ## Services
 
