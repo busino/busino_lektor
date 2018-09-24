@@ -8,9 +8,9 @@ body:
 
 # Technologies
 
-It's not a secret. All software used in my daily business is [open source](https://de.wikipedia.org/wiki/Open_Source).
+It's no secret: all the software used in my day-to-day business is open source.
 If possible I contribute to the tools I'm working with.
-Some (actually not so many) tools that I have developed for my customers are also licensed with a open source compatible license.
+Some tools (actually not so many) that I have developed for my customers are also licensed with a open source compatible license.
 
 Visit my github profile:
 
@@ -50,6 +50,7 @@ This website was built with [Lektor](https://www.getlektor.com/)
 
 [firefox](https://firefox.com) browser with [NoScript](https://noscript.net/) extension.
 
+[thunderbird](https://www.mozilla.org/thunderbird/) my main virtual communication channel
 
 ## IDE, Development Tools
 
@@ -61,9 +62,20 @@ This website was built with [Lektor](https://www.getlektor.com/)
 
 [gimp](https://www.gimp.org/)
 
-
 [inkscape](https://inkscape.org/)
 Vector graphics ...
+
+## Office
+
+[libreoffice](https://www.libreoffice.org/) for calculations and writing invoices...
+
+## Helpers
+
+[putty](http://www.putty.org/) ssh from win-box to the servers
+
+[winscp](https://winscp.net/eng/index.php) scp for windows
+
+[windirstat](https://windirstat.net/) Disk usage statistics viewer
 
 ## Server OS, Deployment
 
@@ -77,15 +89,46 @@ with [compose](https://docs.docker.com/compose/)
 
 [uwsgi](https://uwsgi-docs.readthedocs.io/en/latest/) Web Application Server Container
 
-## Cloud Provider
+## Databases
+
+[mysql](https://www.mysql.com/) The community edition ... what else.
+[mysql-workbench](https://dev.mysql.com/downloads/workbench/) to backup and restore development databases...
+
+## Hardware
+
+### Notebook
+
+HP Envy 17-r190nz
+
+### Workstation
+
+ * Gigabyte GA-X99-Designare
+ * Samsung 750 EVO Basic (500GB, 2.5")
+ * HyperX Fury (4x, 8GB, DDR4-2133, DIMM 288)
+ * MSI GeForce GTX 1070 AERO 8G OC
+ * Intel Xeon E5-2620 v4 (LGA 2011-v3, 2.10GHz)
+ * Corsair Carbide 400C (Midi Tower)
+ * Alpenföhn Brocken 2
+ * be quiet! Dark Power Pro 11 (1000W)
+
+### SOC
+
+ * Raspberry PI 3 Model B
+ * WittyPi 2 (Power Hat)
+ * Discovery kit for LoRaWAN B-L072Z-LRWAN1
+
+## Services
 
 [exoscale](https://www.exoscale.ch/)
 Cloud provider with datacenter just 5 kilometers away from my office.
 
-## Databases
+[github](https://github.com/) to host my sources.
 
-[mysql](https://www.mysql.com/)
-The community edition .. what else.
+[bitbucket](https://bitbucket.org/) for private repos.
+
+[metanet](https://www.metanet.ch/) for the domain names and mail hosting.
+
+
 
 
 ---

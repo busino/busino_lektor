@@ -6,11 +6,10 @@ title: Customers
 ---
 body:
 
-# Customers*
-<!---
+# Customer Projects*
+
 [ANSYS Switzerland GmbH](https://www.ansys.com/)
 Development & Consulting for Distributed Computing Platform
--->
 
 [Forschungsgruppe Wildtiermanagement ZHAW](https://www.zhaw.ch/de/lsfm/institute-zentren/iunr/integrative-oekologie/wildtiermanagement/)
 Acoustic Detection for Animals
@@ -25,7 +24,7 @@ Production program to build concrete elements.
 Geometric analysis program for motorcycles [MoCal](http://www.sutec.ch/en/suterracing/technology/software-development/).
 
 [Tecsag Innovation AG](http://www.tecsag.com)
-[Alptracker](http://www.alptracker.ch/)
+Track your animals up in the alps: [Alptracker](https://portal.alptracker.ch/)
 
 [Wieland Dental Germany](http://www.wieland-dental.de/)
 Adaptation of milling machine software
@@ -36,7 +35,7 @@ Support for django web page.
 # Collaborations*
 
 [Department of Anthropology - University of Zurich](http://www.aim.uzh.ch/de.html)
-Research Associate
+Research Associate. Development of *Passive Acoustic Monitoring* of Orang Utans 
 
 [Nomatec](https://www.nomatec.ch/) IT Support, Hardware Purchase, Consulting
 

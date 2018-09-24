@@ -16,11 +16,12 @@ Visit my github profile:
 
 [<img src="/static/vendor/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png">](https://github.com/busino)
 
-
 ## Python
 
 [Python](https://www.python.org/) is my main programming language. And I would like to provide some useful libraries that are used
 in my daily business.
+
+[Typescript](http://www.typescriptlang.org/) is used for the web projects if [Angular](https://angular.io/) is involved.
 
 [Django](https://www.djangoproject.com/)
 Create database and web prototypes in minutes. This is how I use it.
@@ -42,19 +43,29 @@ My preferred way to install python packages.
 
 ## Web Tools
 
+[Angular](https://angular.io/) for single page applications.
+
 [bootstrap](http://getbootstrap.com/) the css for this page.
 
-[jquery](http://jquery.com/)
+[jquery](http://jquery.com/) for dom manipulation.
 
 This website was built with [Lektor](https://www.getlektor.com/)
 
-[firefox](https://firefox.com) browser with [NoScript](https://noscript.net/) extension.
+[firefox](https://firefox.com) browser with [NoScript](https://noscript.net/) and [AdBlock](https://addons.mozilla.org/de/firefox/addon/adblock-plus/) extension.
+
+Use [chrome](https://www.google.ch/chrome/) as the browser alternative.
 
 [thunderbird](https://www.mozilla.org/thunderbird/) my main virtual communication channel
+
+## Desktop Apps
+
+[electron](https://electron.atom.io/) to create browser-less offline applications.
 
 ## IDE, Development Tools
 
 [eclipse](http://www.eclipse.org)
+
+[Visual Studio SCode](https://code.visualstudio.com/)
 
 [tortoisegit](https://tortoisegit.org/)
 
@@ -96,10 +107,6 @@ with [compose](https://docs.docker.com/compose/)
 
 ## Hardware
 
-### Notebook
-
-HP Envy 17-r190nz
-
 ### Workstation
 
  * Gigabyte GA-X99-Designare
@@ -111,6 +118,10 @@ HP Envy 17-r190nz
  * Alpenföhn Brocken 2
  * be quiet! Dark Power Pro 11 (1000W)
 
+### Notebook
+
+HP Envy 17-r190nz
+
 ### SOC
 
  * Raspberry PI 3 Model B
@@ -119,10 +130,9 @@ HP Envy 17-r190nz
 
 ## Services
 
-[exoscale](https://www.exoscale.ch/)
-Cloud provider with datacenter just 5 kilometers away from my office.
+[exoscale](https://www.exoscale.ch/) cloud provider.
 
-[github](https://github.com/) to host my sources.
+[github](https://github.com/) to host my *open* sources.
 
 [bitbucket](https://bitbucket.org/) for private repos.
 
