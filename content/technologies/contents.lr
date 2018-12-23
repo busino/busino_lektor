@@ -35,6 +35,9 @@ Machine Learning made easy. With great documentation. Want to use machine learni
 [bokeh](https://bokeh.pydata.org/en/latest/)
 Create interactive plots for the web in python.
 
+[keras](https://keras.io/)
+The Python Deep Learning library
+
 [tensorflow](https://www.tensorflow.org/)
 Deep learning from google.
 
